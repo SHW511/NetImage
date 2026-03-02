@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Net-Image": {
+      "commandName": "Project",
+      "commandLineArgs": "--model .\\sdxl-onnx --prompt \"a photo of an astronaut riding a horse on mars, red planet, vibrant colors\" --output result2.png --guidance-scale 9 --steps 40 --seed 123"
+    }
+  }
+}

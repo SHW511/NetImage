@@ -361,3 +361,18 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Python virtual environments
+.venv/
+venv/
+
+# ONNX model files (large, download/convert separately)
+*.onnx
+*.onnx_data
+sdxl-onnx/
+
+# Hugging Face model repos
+stable-diffusion-xl-base-1.0/
+
+# Generated images
+*.png
